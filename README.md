@@ -14,6 +14,6 @@ Both models use the radiofrequency ultrasound signals as the input and use the M
 
 5. For model testing, use test_classifier.py and test_ff_estimator.py.
 
-6. The tool datagenerator.py prepares for the input data used in deep leanring models. The original downsampled RF data should be stored in .csv files, each file containing a 1024 x 256 matrix (num_points per signal x num_signals) and each patient having 10 csv files (=10 frames). This tool requires file that contains a list of csv file names and the correpsonding labels (pdff values for the ff_estimator and 0s and 1s for the classifier).
+6. The tool datagenerator.py prepares for the input data used in deep learning models. The original downsampled RF data should be stored in .csv files, each file containing an RF frame represented by a 1024 x 256 matrix (num_points per RF signal x num_signals) and each patient having 10 csv files (=10 frames). This tool requires a file that contains a list of csv file names and the correpsonding labels (pdff values for the ff_estimator and 0s and 1s for the classifier).
 
 7. The matlab script (stat_analysis.m) and R script (auc_plot_and_test.R) can be used for statistical analysis of the model performances.

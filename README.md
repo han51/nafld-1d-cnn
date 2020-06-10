@@ -23,9 +23,11 @@ Aiguo Han (han51 at illinois.edu)
 
 # Citation
 If you use our code for publications, we would appreciate if you cite our paper:
+
 A. Han, M. Byra, E. Heba, M. P. Andre, J. W. Erdman Jr, R. Loomba, C. B. Sirlin, and W. D. O’Brien Jr. "Noninvasive diagnosis of nonalcoholic fatty liver disease and quantification of liver fat with radiofrequency ultrasound data using one-dimensional convolutional neural networks." Radiology 295, no. 2 (2020): 342-350.
 
 BibTeX format: 
+```
 @article{han2020noninvasive,
   title={Noninvasive diagnosis of nonalcoholic fatty liver disease and quantification of liver fat with radiofrequency ultrasound data using one-dimensional convolutional neural networks},
   author={Han, Aiguo and Byra, Michal and Heba, Elhamy and Andre, Michael P and Erdman Jr, John W and Loomba, Rohit and Sirlin, Claude B and O’Brien Jr, William D},
@@ -36,3 +38,4 @@ BibTeX format:
   year={2020},
   publisher={Radiological Society of North America}
 }
+```
